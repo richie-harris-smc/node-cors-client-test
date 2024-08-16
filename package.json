@@ -10,7 +10,7 @@
     "prettier": "prettier --write {components,pages}/**/*.js next.config.js"
   },
   "engines": {
-    "node": "^18.17",
+    "node": "^16.20.0",
     "yarn": "^1.22.4"
   },
   "dependencies": {
