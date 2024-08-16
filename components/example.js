@@ -2,6 +2,7 @@ import { useState } from "react";
 import fetch from "isomorphic-unfetch";
 
 const baseUrl = process.env.NEXT_STATIC_BASE_URL || "http://localhost:3001";
+const port = process.env.PORT || 80
 const styles = {
   idle: {
     backgroundColor: "white",
